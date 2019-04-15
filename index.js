@@ -53,7 +53,12 @@ app.use(flash());
 app.use(Passport.initialize());
 app.use(Passport.session());
 //endpassport.
-mongoose.connect('mongodb://chothueghemassage:ghemassage123@ds253804.mlab.com:53804/chothueghemassage',{useMongoClient:true});
+//mongoose.connect('mongodb://chothueghemassage:ghemassage123@ds253804.mlab.com:53804/chothueghemassage',{useMongoClient:true});
+mongoose.connect('mongodb://suachuabep:suachuabep123@ds151008.mlab.com:51008/suachuabep',{useMongoClient:true});
+//mongoose.connect(
+//  'mongodb+srv://suaghematxa:ghemassage123@suaghematxacluster-rbdqs.mongodb.net/test?retryWrites=true',
+//  {useNewUrlParser:true,}
+//);
 
 
 mongoose.Promise = global.Promise;
